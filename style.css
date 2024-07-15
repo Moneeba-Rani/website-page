@@ -1,0 +1,130 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+body {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+   
+}
+
+.logo{
+  height: 60px;
+  width: 120px;
+}
+
+.main-content {
+    margin-top: 200px;
+    margin-left: 100px;
+    color: #fff;
+}
+.fff{
+  padding-left: 30px;
+}
+
+
+.aboutus{
+    padding-top: 20px;
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    color: rgb(17, 17, 17);
+}
+
+.crf{
+    padding-top: 80px;
+    text-align: center;
+    color: #D2AC47;
+}
+
+.p1{
+   padding-top: 80px; 
+   padding-right: 30px;
+   padding-left: 30px;
+   font-size: large;
+   font-weight: 200;
+}
+
+.p2{
+    padding-top: 80px; 
+    padding-right: 30px;
+    padding-left: 30px;
+    font-size: large;
+    font-weight: 200;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 200px;
+    bottom: 0px;
+    background-color: transparent;
+    color: aliceblue;
+}
+
+.fimg{
+    height: 10px;
+    width: 10px;
+}
+.flogo{
+    height: 20px;
+    width: 20px;
+    border-radius: 3px;
+}
+
+div.first, div.third{
+    list-style: none;
+    text-decoration: none;
+    position: relative;
+
+}
+
+.bbtn{
+    padding: 9px 23px 9px 23px;
+    background-color: #d2ac47;
+    color: aliceblue;
+    border: 2px solid #f5eeee;
+    border-radius: 10px;
+    width: 100px;
+    height: 50px;
+    text-decoration: none;
+}
+
+.btn:hover{
+  background-color: #f5eeee;
+}
+
+
+
+.login{
+  margin-top: 200px;
+  background-color: rgba(0, 0, 0, 0.692);
+  width: 430px;
+  height: 630px;
+  border-radius: 5px;
+  padding: 50px;
+}
+
+.form-control{
+  box-shadow: none !important;
+}
+
+
+/* responsive css */
+
+@media (max-width: 991px){
+  .sidebar{
+    background-color: rgba(255, 255, 255, 0.144);
+    backdrop-filter: blur(10px);
+  }
+  .nav-link{
+    background-color: rgba(255, 255, 255, 0.144);
+    color: rgba(255, 255, 255, 0.904);
+  }
+}
+
+
+
